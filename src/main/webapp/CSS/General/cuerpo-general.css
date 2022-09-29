@@ -1,0 +1,58 @@
+.container-fluid{
+    font-family: 'Montserrat';
+    background: linear-gradient(45grad, #8EF4E9, #9F72E8);
+    padding: 0;
+}
+
+/*todo navegación y banner*/
+#header-box{
+    height: 4rem;
+    justify-content: flex-end;
+    padding: .3rem;
+    align-items: center;
+}
+
+.nav-link {
+    background-color: #47CBBD;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    height: 2.5rem;
+    margin-right: 1rem;
+    padding: 0 .5rem 0 .5rem;
+}
+
+.a{
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    background: #F8DAA3;
+    transform:scale(1.1);
+}
+
+.banner__imagen{
+    height: 12rem;
+}
+
+.banner__titulo{
+    color: black;
+    font-family: 'Pacifico', cursive;
+    font-size: 3.8rem;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.7);
+    transform: translate(0, -260%);
+}
+
+#header-box, #header-nav{
+    display: flex;
+}
+#header-box, .banner__imagen, .banner__titulo{
+    width: 100%;
+}
+.nav-link, .nav-link:hover {
+    color: black;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+}

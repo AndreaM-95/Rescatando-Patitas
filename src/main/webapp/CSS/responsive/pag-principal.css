@@ -1,0 +1,165 @@
+@media (min-width:320px) and (max-width:576px){/*Teléfonos*/
+    /*todo PASARELA*/
+    .titulo{
+        font-size: 1.5rem;
+        padding: 1rem 0 0 0;
+    }
+    /*todo GALERIA*/
+    .peludito-titulo{
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    #mascota_box{
+        width: 30%;
+    }
+
+    .nombre_mascota{
+        font-size: 1.3rem;
+    }
+
+    .texto_mascota1, .texto_mascota2{
+        font-size: .8rem;
+    }
+
+    .botones{
+        font-size: 1rem;
+        height: 2rem;
+    }
+    /*todo Colaboradores*/
+    .colab-titulo{
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .colaboradores-box{
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .colab-box{
+        margin: 0;
+        width: 27%;
+        margin: 1rem;
+    }
+
+    .colab-text2{
+        margin: 0 0 1rem 0;
+        padding-top: 0;
+        font-size: .7rem;
+    }
+    /*todo Pie de página*/
+    .rodapie{
+        flex-direction: column;
+    }
+    .sitios_box,.derechos_box{
+        width: 100%;
+    }
+    .texto_sitios1{
+        font-size: .8rem;
+        text-align: center;
+    }
+    .texto_sitios2{
+        font-size: .9rem;
+    }
+    .derechos_box{
+        border-radius: 0;
+    }
+
+    .rodapie-texto{
+        font-size: .8rem;
+    }
+}
+
+@media (min-width:577px) and (max-width:768px){  /*Tablets*/
+    /*todo PASARELA*/
+    .titulo{
+        font-size: 1.5rem;
+        padding: 1rem 0 0 0;
+    }
+    .carrusel{
+        padding: 0 2rem 0 2rem;
+        width: auto;
+    }
+
+    .carrusel__contenedor{
+        height: 20%;
+        margin: 0;
+        position: relative;
+        width: 100%;
+    }
+
+    .slider_img{
+        width: 80%;
+    }
+
+    .carrusel__indicador{
+        align-items: center;
+        width: 80%;
+    }
+
+    /*todo GALERIA*/
+    .peludito-titulo{
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    #mascota_box{
+        width: 20%;
+        margin-right: 1rem;
+    }
+
+    .nombre_mascota{
+        font-size: 1.3rem;
+    }
+
+    .texto_mascota1, .texto_mascota2{
+        font-size: .8rem;
+    }
+
+    .botones{
+        font-size: 1rem;
+        height: 2rem;
+    }
+
+    /*todo Colaboradores*/
+    .colab-titulo{
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .colaboradores-box{
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .colab-box{
+        margin: 0;
+        width: 18%;
+    }
+
+    .colab-text2{
+        margin: 0 0 1rem 0;
+        padding-top: 0;
+        font-size: .7rem;
+    }
+
+    /*todo Pie de página*/
+    .sitios_box,.derechos_box{
+        width: 100%;
+    }
+    .texto_sitios1{
+        text-align: center;
+    }
+    .texto_sitios2,.texto_sitios1{
+        font-size: .9rem;
+    }
+
+    .rodapie-img{
+       width: 30%;
+    }
+
+    .fa-circle-arrow-up:before{
+        font-size: 2.7rem;
+    }
+}

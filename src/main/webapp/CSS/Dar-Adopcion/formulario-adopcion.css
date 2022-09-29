@@ -1,0 +1,119 @@
+/*TODO ||PARRAFO|| */
+.parrafo-1{
+    display: block;
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    padding-top: 1rem;
+}
+.form_texto-1, .form_texto-2{
+    font-size: 1.5rem;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, .4);
+}
+.form_texto-1{
+    font-weight: 400;
+}
+.form_texto-2{
+    color: #fff;
+    font-weight: 600;
+    padding-top: .5rem;
+}
+
+/*TODO ||SECCIÓN DEL FORMULARIO|| */
+#main-box1{
+    display: flex;
+    align-items: center;
+}
+#formulario-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 55%;
+}
+.form-box-1{
+    background: #44b4b0;
+    border-radius: 1rem;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2.5rem;
+    padding: 1rem 2rem 1rem 2rem;
+    width: 90%;
+}
+.text-label-1,.form_dato-1,.form_mensaje-1{
+    border-radius: 1rem;
+    border: none;
+}
+.text-label-1,.form_dato-1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 3rem;
+}
+.text-label-1{
+    font-size: 1.3rem;
+    padding: .5rem 0 .5rem 0;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, .4);
+    padding: .5rem 0 .5rem 0;    
+    width: 40%;
+}
+.form_dato-1{
+    padding: .5rem;
+    background: #C3F9F8;
+    margin-bottom: 1.5rem;
+    width: 60%;
+    font-size: 1.2rem;
+}
+.text-area-1{
+    font-size: 1.3rem;
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, .4); 
+}
+.form_mensaje-1{
+    height: 6rem;
+    margin-top: 1rem;
+    width: 100%;
+    padding: .5rem;
+    background: #C3F9F8;
+    font-size: 1.2rem;
+}
+#botones-box-1{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    width: 100%;
+}
+.botones-1{
+    background: #861AEC;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 4rem;
+    margin: 0 1rem 0 1rem;
+    width: 13.5rem;
+}
+.botones-1:hover{
+    background: #F8DAA3;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+    color: black;
+    transform: scale(1.1);
+}
+
+/*TODO SECCIÓN VIDEO*/
+#video-box1{
+    align-items: center;
+    padding: 0 1rem 0 1rem;
+    width: 45%;
+}
+#video-1{
+    border-radius: 10px;
+    left: 0;
+    object-fit: cover;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}

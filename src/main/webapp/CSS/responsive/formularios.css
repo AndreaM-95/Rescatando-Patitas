@@ -1,0 +1,152 @@
+@media only screen and (max-width: 576px){/*Teléfonos*/
+    /*todo Formulario Dar en adopción*/
+    .parrafo-1{
+        width: 100%;
+        margin: 0;
+    }
+    .form_texto-1, .form_texto-2{
+        font-size: 1.2rem;
+        margin: 0;
+    }
+    .form_texto-2{
+        margin-bottom: 1rem;
+    }
+    #formulario-1{
+        width: 100%;
+        align-items: center;
+    }
+    .form-box-1{
+        margin: 0;
+    }
+    .text-label-1{
+        font-size: 1rem;
+    }
+    .form_dato-1{
+        font-size: 1rem;
+    }
+    .text-area-1{
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+    .form_mensaje-1{
+        width: 100%;
+        margin: 1rem 0;
+    }
+    #botones-box-1{
+        padding: 0;
+    }
+    .botones-1{
+        font-size: 0.8rem;
+        height: 2.7rem;
+    }
+
+    #video-box1{
+        display: none;
+    }
+
+    /*todo formulario adoptar*/
+
+    .texto-1, .texto-2{
+        width: 100%;
+        font-size: 1.1rem;
+        padding: 0 .5rem 0 .5rem;
+    }
+    .texto-2{
+        margin-bottom: 1rem;
+    }
+
+    .text-label-2, .form_dato-2,.text-label-4{
+        font-size: 1rem;
+    }
+
+    .text-label-3{
+        font-size: 1rem;
+    }
+
+    .botones-2{
+        font-size: 1rem;
+        padding: 0 .5rem 0 .5rem;
+        width: 43%;
+        height: 2.5rem;
+    }
+
+    #video-box-2{
+        display: none;
+    }
+
+}
+
+@media (max-width:768px){  /*Tablets*/
+   /*todo Formulario Dar en adopción*/
+   .parrafo-1{
+        width: 100%;
+        margin: 0;
+    }
+    .form_texto-1, .form_texto-2{
+        font-size: 1.3rem;
+        margin: 0;
+    }
+    .form_texto-2{
+        margin-bottom: 1rem;
+    }
+    #formulario-1{
+        width: 100%;
+        align-items: center;
+    }
+    .form-box-1{
+        margin: 0;
+    }
+    .text-label-1{
+        font-size: 1rem;
+    }
+    .form_dato-1{
+        font-size: 1rem;
+    }
+    .text-area-1{
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+    .form_mensaje-1{
+        width: 100%;
+        margin: 1rem 0;
+    }
+    #botones-box-1{
+        padding: 0;
+    }
+    .botones-1{
+        font-size: 0.8rem;
+        height: 2.7rem;
+    }
+
+    #video-box1{
+        display: none;
+    }
+
+    /*todo formulario adoptar*/
+    #formulario-2{
+        width: 100vw;
+        align-items: center;
+    }
+
+    .form-box-2{
+        margin: 0;
+    }
+
+    .text-label-3{
+        width: 100%;
+        justify-content: center;        
+        display: flex;
+    }
+    
+    .form_dato-3{
+        width: 100%;
+        padding: .5rem;
+    }
+
+    #video-box-2{
+        display: none;
+    }
+
+}

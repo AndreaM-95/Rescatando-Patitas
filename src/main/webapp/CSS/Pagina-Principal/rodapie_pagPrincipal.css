@@ -1,0 +1,70 @@
+.rodapie{
+    margin-top: 2rem;
+    display: flex;
+}
+
+/*Sitios oficiales*/
+.sitios_box{
+    width: 40%;
+    padding: 0 1rem 0 1rem;
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(45grad, #44b4b0, #861AEC);
+    border-radius: 1rem 1rem 0 0;
+}
+.sitios_box a{
+    border-radius: 100%;
+    background: #250576;
+    color: rgb(238, 232, 232);
+    border: #250576 solid;
+    margin-right: .5rem;
+    height: 2.3rem;
+}
+.sitios_box a:hover{
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+    background: #885EF0;
+    transform: scale(1.1);
+    border: #885EF0 solid;
+}
+.fa-brands, .fa-facebook{
+    font-size: 2rem;
+    border-radius: 100%;
+}
+.texto_sitios1{
+    text-align: justify;
+    font-weight: 600;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+    color: #fff;
+    width: 100%;
+    padding-top: 1rem;
+}
+.texto_sitios2{
+    width: 85%;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: .3rem;
+}
+
+/*Derechos*/
+.derechos_box{
+    width: 60%;
+    border-radius: 1rem 1rem 0 0;
+    background: linear-gradient(90grad, #44b4b0, #861AEC);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.rodapie-img{
+    width: 15%;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+.rodapie-texto{
+    margin-top: .5rem;
+    color: aliceblue;
+    font-weight: 600;
+    line-height: 1rem;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+}

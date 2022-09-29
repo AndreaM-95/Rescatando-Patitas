@@ -1,0 +1,99 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28/09/2022, 10:07:33 p. m.
+    Author     : sebas
+*/
+
+#titulousuarios{
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, .4);
+    
+}
+
+.container{
+    
+   
+    padding: 0 0 2rem 0;
+}
+
+#btnAgregar{
+   
+    background: #861AEC;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 400;
+    height: 3rem;
+    margin: 0 1rem 0 1rem;
+    width: 13.5rem;
+    cursor: pointer;
+      
+}
+
+#btnAgregar:hover{
+    background: #F8DAA3;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+    color: black;
+    transform: scale(1.1);
+}
+
+#fila-titulo {
+    border-radius: 1rem 1rem 0 0;
+}
+
+
+.dato{
+    
+    width: 1%;
+    height: 3rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    background: #247D97;
+    
+    
+}
+ 
+.dato-user{
+    height: 3rem;
+    text-align: center;
+    font-size: 1.1rem;
+    color:white;
+    background:#44b4b0; 
+    
+}
+
+.accion{
+    background: #61D6F9;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    height: 2rem;
+    margin: .5rem .3rem .5rem .3rem;
+    font-weight: 600;
+    aling-items: center;
+    
+}
+
+ .accion:hover{
+    background: #F8DAA3;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+    color: black;
+    transform: scale(1.1);
+}
+
+.tabla-box{
+    
+    margin-bottom: 2rem;
+   
+}

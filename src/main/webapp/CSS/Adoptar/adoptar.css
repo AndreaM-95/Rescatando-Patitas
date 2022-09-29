@@ -1,0 +1,121 @@
+#main-box2{
+    display: flex;
+}
+
+#formulario-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 65%;
+}
+.texto-1,.texto-2,.text-label-2,.text-label-3,.text-label-4{
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, .4);
+}
+.texto-1{
+    font-size: 1.4rem;
+    height: 11%;
+    font-weight: 400;
+    padding: 2rem 1.4rem 0 1.4rem;
+}
+.texto-2{
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 600;
+    padding-top: .5rem;
+}
+
+.form-box-2{
+    background: #44b4b0;
+    border-radius: 1rem;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2.5rem;
+    padding: 1rem 2rem 1rem 2rem;
+    width: 90%;
+}
+
+.text-label-2,.text-label-3{
+    border-radius: 1rem;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    height: 3rem;
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+.text-label-2{
+    width: 45%;
+}
+
+.form_dato-2,.form_dato-3,.form_mensaje-2{
+    background: #C3F9F8;
+    border-radius: 1rem;
+    border: none;
+}
+.form_dato-2{
+    display: flex;
+    flex-wrap: wrap;
+    height: 3rem;
+    padding: .5rem;
+    height: 3rem;
+    margin-bottom: 1.5rem;
+    width: 55%;
+}
+.form_dato-3{
+    width: 30%;
+}
+.text-label-4{
+    height: 3rem;
+    padding: .5rem;
+    font-size: 1.2rem;
+    width: 100%;
+    align-items: center;
+    margin-top: 1rem
+}
+.form_mensaje-2{
+    padding: .5rem;
+    width: 100%;
+    height: 6rem;
+}
+
+#botones-box-2{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 1rem 0 1rem;
+}
+.botones-2{
+    width: 40%;
+    font-size: 1.2rem;
+    background: #861AEC;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+    color: #fff;
+    font-weight: 400;
+    padding: .5rem 0 .5rem 0;
+}
+.botones-2:hover{
+    background: #F8DAA3;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+    color: black;
+    transform: scale(1.1);
+}
+
+/*TODO SECCIÓN VIDEO*/
+#video-box-2{
+    display: grid;
+    padding: 2rem 1rem 0 1rem;
+    width: 35%;
+}
+#video-2{
+    border-radius: 10px;
+    left: 0;
+    object-fit: cover;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}

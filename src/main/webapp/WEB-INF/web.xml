@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>Controlador</servlet-name>
+        <servlet-class>Controlador.Controlador</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControlUser</servlet-name>
+        <servlet-class>Controlador.ControlUser</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControladorLogin</servlet-name>
+        <servlet-class>Controlador.ControladorLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Controlador</servlet-name>
+        <url-pattern>/Controlador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControlUser</servlet-name>
+        <url-pattern>/ControlUser</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControladorLogin</servlet-name>
+        <url-pattern>/ControladorLogin</url-pattern>
+    </servlet-mapping>
+</web-app>

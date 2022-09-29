@@ -1,0 +1,36 @@
+.colab-titulo{
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+    font-weight: 600;
+}
+.colaboradores-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    padding: 1.5rem 0 1.5rem 0;
+}
+.colab-box{
+    text-align: center;
+    border-radius: 1rem 2rem 1rem 2rem;
+    background: linear-gradient(45grad, #885EF0, rgb(16, 85, 145));
+    width: 11rem;
+    margin: 0 1rem 0 1rem;
+}
+.img_colab{
+    margin-top: .5rem;
+    width: 5rem;
+    border-radius: 100%;
+}
+.colab-text1{
+    font-size: 1rem;
+    padding-top: .5rem;
+}
+.colab-text2{
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: .5rem;
+}

@@ -1,0 +1,57 @@
+@media only screen and (max-width: 576px){/*Teléfonos*/
+    /*TODO NAVEGACION*/
+    #header-box{
+        height: 3rem;
+    }
+    .nav-link{
+        height: 2rem;
+        font-size: .8rem;
+    }
+    .banner__imagen{
+        height: 5rem;
+    }
+    .banner{
+        width: 100vw;
+    }
+    .banner__titulo{
+        font-size: 2rem;
+    }
+
+    /*todo Rodapie formularios*/
+    .rodapie-img1{
+        width: 12%;
+    }
+    .rodapie-texto1{
+        font-size: .8rem;
+    }
+
+    /*todo rodapie pagina principal*/
+}
+
+@media (max-width:768px){  /*Tablets*/
+    /*TODO NAVEGACION*/
+    #header-box{
+        height: 3rem;
+    }
+    .nav-link{
+        height: 2.1rem;
+        font-size: .9rem;
+    }
+    .banner__imagen{
+        height: 6.5rem;
+    }
+    .banner{
+        width: 100vw;
+    }
+    .banner__titulo{
+        font-size: 2rem;
+    }
+
+    /*todo Rodapie formularios*/
+    .rodapie-img1{
+        width: 12%;
+    }
+
+
+    /*todo rodapie pagina principal*/
+}
