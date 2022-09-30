@@ -97,6 +97,7 @@ public class ControlUser extends HttpServlet {
         Ejemplo, la accion = name="accion"|| recibe "Agregar" hace referencia a 
         value="Agregar"        
         */
+        //Boton agregar dentro del crud
         else if(action2.equalsIgnoreCase("Agregar")){
             String identificacion_usuario = request.getParameter("txt_identificacion_usuario");
             String nombre_usuario = request.getParameter("txt_nombre_usuario");
@@ -112,7 +113,7 @@ public class ControlUser extends HttpServlet {
             p.setNombre_mascota_usuario(mascota_usuario);
             p.setNumero_referencia(mascota_referencia_usuario);          
             dao.addUser(p); //La operacion es agregar
-            acceso2=listar;
+            acceso2=listar; 
         }
         
         
@@ -178,7 +179,7 @@ public class ControlUser extends HttpServlet {
             p.setNumero_referencia(mascota_referencia_usuario); 
           
            dao.addUser(p); //La operacion es añadir
-           acceso2=listar;
+           acceso2=listar; //Envio a la lista del crud
         }
        
         

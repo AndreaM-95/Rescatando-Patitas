@@ -49,3 +49,21 @@ window.addEventListener('load', function(){
 		]
     });
 });
+
+const boton1 = document.getElementById('adoptar_mascota');
+function alertas(e){
+    e.preventDefault();
+    boton1.addEventListener('click', ()=>{
+       Swal.fire({
+            text:'¡Agregado al carrito!',
+            icon:'success',
+            confirmButtonText: '¡Entendido!',
+            timer: 10000,
+            timerProgressBar: true,
+            background:'#403536',
+            color: 'white',
+            allowOutsideClick: false,    //No deja que el usuario de click afuera de la alerta
+            confirmButtonColor: '#480F17',
+        }); 
+    });
+}

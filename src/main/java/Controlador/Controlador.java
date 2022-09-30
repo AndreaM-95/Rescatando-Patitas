@@ -84,6 +84,8 @@ public class Controlador extends HttpServlet {
         Ejemplo, la accion = name="accion"|| recibe "Agregar" hace referencia a 
         value="Agregar"        
         */
+       
+        //Boton agregar dentro del crud
         else if(action.equalsIgnoreCase("Agregar")){
             String nombre_mascota=request.getParameter("txt_nombre_mascota");
             String direccion_mascota =request.getParameter("txt_direccion_mascota");
@@ -134,7 +136,7 @@ public class Controlador extends HttpServlet {
             //Enviamos el parametro del id
             p.setId(id);
             dao.eliminar(id); //La operacion es eliminar persona por id
-            acceso=listar; //Cuaando nos elimina nos enviara a la lista
+            //acceso=listar; //Cuaando nos elimina nos enviara a la lista
         }
         
         
@@ -153,7 +155,7 @@ public class Controlador extends HttpServlet {
             p.setEdad_mascota(edad_mascota);
           
            dao.add(p); //La operacion es añadir
-           acceso=listar;
+           //acceso=listar; //Este envia al listar del crud
         }
        
         

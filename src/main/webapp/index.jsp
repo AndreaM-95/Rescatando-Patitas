@@ -13,14 +13,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <title>Rescatando Patitas</title>
-
+        
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="icon" type="image/jpg" href="./recursos/favicon.ico"/>
+        <link rel="icon" type="image/jpg" href="IMG/favicon.ico"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
-	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         
@@ -32,6 +32,12 @@
         <link rel="stylesheet" href="CSS/Pagina-Principal/boton_top.css">
         <link rel="stylesheet" href="CSS/responsive/pag-principal.css">
         <link rel="stylesheet" href="CSS/responsive/general-y-rodapies.css">
+        
+        <style>
+            li{
+                list-style: none;
+            }
+        </style>
     </head>
 
     <body class="container-fluid">
@@ -100,7 +106,7 @@
                         <li>Perrita Saludable.</li>
                     </ul>
                     <p class="texto_mascota2">Ref: #01</p>
-                    <a class="a" href="adoptar.html">
+                    <a class="a" href="adoptar.jsp">
                         <button class="botones">Adoptar</button>
                     </a> 
                 </div>
@@ -118,7 +124,7 @@
                         <li>Gatico saludable.</li>
                     </ul>
                     <p class="texto_mascota2">Ref: #02</p>
-                    <a class="a" href="adoptar.html">
+                    <a class="a" href="adoptar.jsp">
                         <button class="botones">Adoptar</button>
                     </a>
                 </div>
@@ -136,7 +142,7 @@
                         <li>Perrita Saludable.</li>
                     </ul>
                     <p class="texto_mascota2">Ref: #03</p>
-                    <a class="a" href="adoptar.html">
+                    <a class="a" href="adoptar.jsp">
                         <button class="botones">Adoptar</button>
                     </a> 
                 </div>
@@ -154,7 +160,7 @@
                         <li>Gatica saludable.</li>
                     </ul>
                     <p class="texto_mascota2">Ref: #04</p>
-                    <a class="a" href="adoptar.html">
+                    <a class="a" href="adoptar.jsp">
                         <button class="botones">Adoptar</button>
                     </a> 
                 </div>
@@ -172,7 +178,7 @@
                         <li>Perrito saludable.</li>
                     </ul>
                     <p class="texto_mascota2">Ref: #05</p>
-                    <a class="a" href="adoptar.html">
+                    <a class="a" href="adoptar.jsp">
                         <button class="botones">Adoptar</button>
                     </a> 
                 </div>
@@ -191,7 +197,7 @@
                         <li>Gatica Saludable.</li>
                     </ul>
                     <p class="texto_mascota2">Ref: #06</p>
-                    <a class="a" href="adoptar.html">
+                    <a class="a" href="adoptar.jsp">
                         <button class="botones">Adoptar</button>
                     </a> 
                 </div>
@@ -209,7 +215,7 @@
                         <li>Perrito saludable.</li>
                     </ul>
                     <p class="texto_mascota2">Ref: #07</p>
-                    <a class="a" href="adoptar.html">
+                    <a class="a" href="adoptar.jsp">
                         <button class="botones">Adoptar</button>
                     </a>
                 </div>
@@ -227,7 +233,7 @@
                         <li>Gatico Saludable.</li>
                     </ul>
                     <p class="texto_mascota2">Ref: #08</p>
-                    <a class="a" href="adoptar.html">
+                    <a class="a" href="adoptar.jsp">
                         <button class="botones">Adoptar</button>
                     </a> 
                 </div>
@@ -245,7 +251,7 @@
                         <li>Perrito mayor.</li>
                     </ul>
                     <p class="texto_mascota2">Ref: #09</p>
-                    <a class="a" href="adoptar.html">
+                    <a class="a" href="adoptar.jsp">
                         <button class="botones">Adoptar</button>
                     </a> 
                 </div>
@@ -263,7 +269,7 @@
                         <li>Gatica saludable.</li>
                     </ul>
                     <p class="texto_mascota2">Ref: #10</p>
-                    <a class="a" href="adoptar.html">
+                    <a class="a" href="adoptar.jsp">
                         <button class="botones">Adoptar</button>
                     </a> 
                 </div>
@@ -283,7 +289,7 @@
                         <li>Perrito Saludable.</li>
                     </ul>
                     <p class="texto_mascota2">Ref: #11</p>
-                    <a class="a" href="adoptar.html">
+                    <a class="a" href="adoptar.jsp">
                         <button class="botones">Adoptar</button>
                     </a> 
                 </div>
@@ -301,7 +307,7 @@
                         <li>Gatica saludable.</li>
                     </ul>
                     <p class="texto_mascota2">Ref: #12</p>
-                    <a class="a" href="adoptar.html">
+                    <a class="a" href="adoptar.jsp">
                         <button class="botones">Adoptar</button>
                     </a>
                 </div>
@@ -319,7 +325,7 @@
                         <li>Perrito Saludable.</li>
                     </ul>
                     <p class="texto_mascota2">Ref: #13</p>
-                    <a class="a" href="adoptar.html">
+                    <a class="a" href="adoptar.jsp">
                         <button class="botones">Adoptar</button>
                     </a> 
                 </div>
@@ -337,7 +343,7 @@
                         <li>Gatica saludable.</li>
                     </ul>
                     <p class="texto_mascota2">Ref: #14</p>
-                    <a class="a" href="adoptar.html">
+                    <a class="a" href="adoptar.jsp">
                         <button class="botones">Adoptar</button>
                     </a> 
                 </div>
@@ -355,7 +361,7 @@
                         <li>Perrita saludable.</li>
                     </ul>
                     <p class="texto_mascota2">Ref: #15</p>
-                    <a class="a" href="adoptar.html">
+                    <a class="a" href="adoptar.jsp">
                         <button class="botones">Adoptar</button>
                     </a> 
                 </div>

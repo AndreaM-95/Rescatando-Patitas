@@ -1,4 +1,3 @@
-
 <%@page import="Modelo.Usuario"%>
 <%@page import="ModeloDAO.UsuarioDAO"%>
 <%@page import="Modelo.Mascota"%>
@@ -18,7 +17,7 @@
         <title>Rescatando Patitas</title>
             
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="icon" type="image/jpg" href="./recursos/favicon.ico"/>
+        <link rel="icon" type="image/jpg" href="IMG/favicon.ico"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
@@ -32,12 +31,23 @@
     
     <!--Andrea este codigo CSS lo puse solo para referenciar la tabla, los puedes eliminar-->
     <style>
-    table, th, td {
-    border:1px solid black;
-    }
+        table, th, td {
+            border: solid #CCE0E1;
+        }
+        .container-fluid{
+            font-family: 'Montserrat';
+            background: linear-gradient(45grad, #8EF4E9, #9F72E8);
+            padding: 0;
+        }
+    
     </style>
     
     <body class="container-fluid">
+        <header id="header-box">
+            <nav id="header-nav">
+                <a href="login.jsp" class="a"><button class="nav-link">Salir de la sesión</button></a>
+            </nav>
+        </header>
         <section class="banner">
             <div class="banner__imagen"><img src="IMG/banner.png" class="banner"></div>
             <h2 class="banner__titulo">Rescatando patitas</h2>
@@ -45,7 +55,7 @@
         
         <!---Contenedor-->
         <div class="container">
-            <h2 id ="titulousuarios" >Mascotas</h2>
+            <h2 id ="titulousuarios" >Solicitudes rescate de mascotas</h2>
             <a href="Controlador?accion=add" ><button id="btnAgregar">Agregar Nuevo</button></a>
             <br>
             <br>
@@ -98,7 +108,7 @@
      <!-------------------------------------------------------------->   
      
         <div class="container">
-            <h2 id="titulousuarios">Usuarios</h2>
+            <h2 id="titulousuarios">Solicitudes de adopción</h2>
             
             <a href="ControlUser?accion2=add"><button id="btnAgregar">Agregar Nuevo</button></a>
             <br>

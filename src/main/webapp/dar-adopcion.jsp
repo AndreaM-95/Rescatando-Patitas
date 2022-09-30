@@ -78,10 +78,7 @@
                     <textarea id="observa_usuario" class="form_mensaje-1" name="message" placeholder="&#128232; Texto aquí" maxlength="250"></textarea>
 
                     <div id="botones-box-1" action="Controlador" >
-                        <button id="adoptar_mascota" class="botones-1" type="submit" type="submit"  href="adoptar.jsp" name="accion" value="Agregar2">Registrar Mascota</button>
-                        <button id="consultar_usuario" class="botones-1" type="submit"  href="vistas/listar.jsp"onclick="sonido.play()">Consultar Mascota</button>
-                        <button id="modificar_usuario" class="botones-1" type="submit" onclick="sonido.play()">Modificar Mascota</button>
-                        <button id="borrar_usuario" class="botones-1" type="submit" onclick="sonido.play()">Borrar Mascota</button>
+                        <button id="adoptar_mascota" class="botones-1" type="submit" type="submit" onclick="sonido.play()" href="adoptar.jsp" name="accion" value="Agregar2">Registrar Mascota</button>
                     </div>
                 </form>
             </section>
