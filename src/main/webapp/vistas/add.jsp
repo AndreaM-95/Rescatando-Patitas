@@ -66,7 +66,8 @@
     <body class="container-fluid">
         <header id="header-box">
             <nav id="header-nav">
-                <a href="listar.jsp" class="a"><button class="nav-link">Volver a registros</button></a>
+ <!--Problema del registro solucionado, cuando hacemos los href tenemos que enviarlos al controlador para direccionar a la -->
+                <a href="Controlador?accion=listar" class="a"><button class="nav-link">Volver a registros</button></a>            
             </nav>
         </header>
         <section class="banner">

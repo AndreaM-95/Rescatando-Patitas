@@ -86,7 +86,7 @@ public class UsuarioDAO implements CRUD_USER {
     //Codigo para agregar Registros de la base de datos
     @Override
     public boolean addUser(Usuario per) {
-    String sql = "insert into usuarios(identificacion_usuario,nombre_usuario,telefono_usuario,direccion_usuario,nombre_mascota_usuario,mascota_referencia)values('"+per.getIdentificacion_usuario()+"','"+per.getNombre_mascota_usuario()+"','"+per.getTelefono_usuario()+"','"+per.getDireccion_usuario()+"','"+per.getNombre_mascota_usuario()+"','"+per.getNumero_referencia()+"')";    
+    String sql = "insert into usuarios(identificacion_usuario,nombre_usuario,telefono_usuario,direccion_usuario,nombre_mascota_usuario,mascota_referencia)values('"+per.getIdentificacion_usuario()+"','"+per.getNombre_usuario()+"','"+per.getTelefono_usuario()+"','"+per.getDireccion_usuario()+"','"+per.getNombre_mascota_usuario()+"','"+per.getNumero_referencia()+"')";    
     try {
             con=cn.getConnection();
             ps=con.prepareStatement(sql);

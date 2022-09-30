@@ -136,7 +136,7 @@ public class Controlador extends HttpServlet {
             //Enviamos el parametro del id
             p.setId(id);
             dao.eliminar(id); //La operacion es eliminar persona por id
-            //acceso=listar; //Cuaando nos elimina nos enviara a la lista
+           acceso=listar; //Cuaando nos elimina nos enviara a la lista
         }
         
         

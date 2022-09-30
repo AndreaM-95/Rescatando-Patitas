@@ -32,6 +32,7 @@ public class ControlUser extends HttpServlet {
     String add="vistasUser/addUser.jsp";
     String addUsuario="adoptar.jsp";      
     String edit="vistasUser/editUser.jsp";
+    
 //------------------------------------------------------------------------------      
 
     Usuario p = new Usuario(); //Instanciamos la clase Mascotas que esta en Mascotas.java
@@ -178,8 +179,9 @@ public class ControlUser extends HttpServlet {
             p.setNombre_mascota_usuario(mascota_usuario); 
             p.setNumero_referencia(mascota_referencia_usuario); 
           
-           dao.addUser(p); //La operacion es añadir
-           acceso2=listar; //Envio a la lista del crud
+            dao.addUser(p); //La operacion es añadir
+            acceso2=addUsuario; //Envio a la lista del crud
+           
         }
        
         
