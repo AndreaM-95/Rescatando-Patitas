@@ -177,8 +177,7 @@ public class ControlUser extends HttpServlet {
             p.setTelefono_usuario(telefono_usuario);
             p.setDireccion_usuario(direccion_usuario);   
             p.setNombre_mascota_usuario(mascota_usuario); 
-            p.setNumero_referencia(mascota_referencia_usuario); 
-          
+            p.setNumero_referencia(mascota_referencia_usuario);       
             dao.addUser(p); //La operacion es añadir
             acceso2=addUsuario; //Envio a la lista del crud
            

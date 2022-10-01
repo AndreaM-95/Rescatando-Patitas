@@ -155,7 +155,7 @@ public class Controlador extends HttpServlet {
             p.setEdad_mascota(edad_mascota);
           
            dao.add(p); //La operacion es añadir
-           //acceso=listar; //Este envia al listar del crud
+           acceso=addMascota; //Este envia al listar del crud
         }
        
         

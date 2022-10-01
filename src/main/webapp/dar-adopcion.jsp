@@ -11,7 +11,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+         <script>window.history.replaceState({}, document.title, "/" + "dar-adoptar.jsp");</script>
+
         <title>Rescatando Patitas</title>
 
         <link rel="stylesheet" href="css/reset.css">
@@ -19,7 +20,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
-        
+        <script>window.history.replaceState({}, document.title, "/" + "dar-adoptar.jsp");</script>
         <link rel="stylesheet" href="CSS/General/cuerpo-general.css">
         <link rel="stylesheet" href="CSS/Dar-Adopcion/formulario-adopcion.css">
         <link rel="stylesheet" href="CSS/General/rodapie-formularios.css">
