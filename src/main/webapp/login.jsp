@@ -62,7 +62,7 @@
                 </div>
                 <div class="form-group">
                     <label id="dato">Contraseña:</label>
-                    <input type="password" name="txtpass" placeholder="&#8265; Ingrese su Contraseña" class="form-control">
+                    <input type="password" name="txtpass" placeholder="&#128273; Ingrese su Contraseña" class="form-control">
                 </div>
                 <input class="boton" type="submit" name="accioningresar" value="Ingresar">
                 
