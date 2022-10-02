@@ -13,11 +13,11 @@ public class userDAO implements validar{
     Conexionlogin cn = new Conexionlogin();
     PreparedStatement ps;
     ResultSet rs;
-    int r=0;
     
     
     @Override
     public int validar(user us) {
+        int r=0;
         String sql="select * from login where usuario =?  and contraseña=?" ;
         try {
             con=cn.getConnection();
