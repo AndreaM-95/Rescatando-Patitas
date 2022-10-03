@@ -15,7 +15,8 @@
         <link rel="stylesheet" href="CSS/login/login.css">
         <link rel="stylesheet" href="CSS/General/cuerpo-general.css">
         <link rel="stylesheet" href="CSS/General/rodapie-formularios.css">
-        
+         <script>window.history.replaceState({}, document.title, "/" + "login.jsp");</script>
+
         <style>
             body{
                 font-family: 'Montserrat';

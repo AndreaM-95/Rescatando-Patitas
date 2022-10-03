@@ -21,7 +21,7 @@ public class Conexion {
     public Conexion(){
         try {
             Class.forName("com.mysql.jdbc.Driver"); //Driver mysql
-            con=DriverManager.getConnection("jdbc:mysql://localhost:3306/dbrescatandopatitas","root","");            
+            con=DriverManager.getConnection("jdbc:mysql://db4free.net:3306/dbrescatandopati","useroot00","@Root123456789");            
         } catch (Exception e) {
             System.err.println("Error"+e); //Si existe un error, nos imprimira la causa.
         }
